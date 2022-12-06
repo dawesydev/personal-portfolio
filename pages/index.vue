@@ -11,11 +11,11 @@
       </NuxtLink>
     </nav>
     <div>
-      <div class="px-12 w-3/4 lg:grid lg:grid-cols-3 lg:w-full">
-        <h1 class="lg:col-start-1 lg:col-span-2 font-display uppercase text-4xl tracking-tight pb-2 md:text-8xl">
+      <div class="px-12 w-3/4 lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:w-full">
+        <h1 class="lg:row-start-2 lg:col-start-1 lg:col-span-2 font-display uppercase text-4xl tracking-tight pb-2 md:text-8xl">
           frontend developer.
         </h1>
-        <p class="lg:col-start-3 font-body font-medium text-sm pb-6 lg:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus enim eum expedita facilis.</p>
+        <p class="lg:row-start-2 lg:col-start-3 font-body font-medium text-sm pb-6 lg:text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus enim eum expedita facilis.</p>
       </div>
       <div class="flex justify-between items-center px-12 pb-12 w-full lg:mt-16">
         <div class="flex space-x-6 items-center">
@@ -24,7 +24,7 @@
           <NuxtLink class="bg-noir text-parchment font-body font-medium text-xs px-4 py-2 rounded-full uppercase lg:text-md">About</NuxtLink>
         </div>
         <div>
-          <Icon class="text-noir" name="pixelarticons:arrow-down" size="2.6em"/>
+          <Icon class="text-noir animate-bounce-slow" name="pixelarticons:arrow-down" size="2.6em"/>
         </div>
       </div>
     </div>

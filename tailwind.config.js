@@ -18,6 +18,9 @@ module.exports = {
         'parchment': '#ffffe3',
         'noir': '#10100e',
         'berlin': '#307be2',
+      },
+      animation: {
+        'bounce-slow': 'bounce 2s infinite',
       }
     },
   },
