@@ -2,30 +2,40 @@
   <div>
     <slot />
     <footer class="h-11/12 p-8 overflow-y-hidden">
-      <div class="grid grid-rows-6 gap-4 w-full lg:grid-cols-4 lg:grid-rows-3">
-        <div class="flex row-span-2 bg-berlin rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2">
-          <div class="w-1/2 text-noir font-display text-2xl font-black uppercase tracking-wide">I'm Dan, a <span class="text-parchment">frontend developer</span> based remotely within <span class="text-4xl">Europe.</span></div>
-          <div class="w-1/2 font-body font-medium text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum facilis ipsum saepe tempore veniam. Ad alias amet qui tempore unde! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, autem est eum incidunt itaque laborum officia provident qui rerum similique. Aliquam dolor itaque omni.</div>
+      <div class="grid grid-rows-6 gap-4 w-full lg:grid-cols-4 lg:grid-rows-3 lg:gap-8">
+        <div class="flex row-span-2 bg-berlin rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 lg:justify-between">
+          <div class="w-1/2 text-noir font-display text-2xl font-black uppercase tracking-wide md:text-6xl lg:w-1/3">I'm Dan, a <span class="text-parchment">frontend developer</span> based remotely within Europe.</div>
+          <div class="w-1/2 font-body font-medium text-md lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum facilis ipsum saepe tempore veniam. Ad alias amet qui tempore unde! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, autem est eum incidunt itaque laborum officia provident qui rerum similique. Aliquam dolor itaque omni.</div>
         </div>
-        <div class="bg-emerald-200 row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3">
+        <div class="bg-emerald-200 row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3 lg:text-xl">
           <Icon name="pixelarticons:coffee-alt" size="2.4em"/>
           <div class="font-display uppercase text-3xl">tech locker</div>
           <p class="font-body font-medium text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque eos esse itaque odio officia sequi! Ab ad amet aspernatur consequuntur enim est illo molestiae? Culpa ea repellendus reprehenderit sit!</p>
-          <div class="flex w-2/3 justify-between text-sm font-body font-medium">
-            <ul class="list-disc list-inside">
-              <li>JavaScript (ES6+)</li>
-              <li>Vue</li>
-              <li>Nuxt 2 & 3</li>
+          <div class="flex w-full justify-around text-sm font-body font-medium lg:w-full">
+            <ul class="list-inside lg:text-lg space-y-2">
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">JavaScript (ES6+)</li>
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">Vue</li>
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">Nuxt 2 & 3</li>
             </ul>
-            <ul class="list-disc list-inside">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>TailwindCSS</li>
+            <ul class="list-inside lg:text-lg space-y-2">
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">Node.js</li>
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">Express</li>
+              <li class="border border-noir px-4 py-1 rounded-full w-fit flex justify-center">TailwindCSS</li>
             </ul>
           </div>
 
         </div>
-        <div class="bg-amber-200 row-span-1 rounded-xl p-4 space-y-4">
+        <div class="bg-rose-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+          <Icon name="pixelarticons:at" size="2.2em"/>
+          <div class="font-display uppercase text-2xl">Socials</div>
+          <div class="flex space-x-4">
+            <NuxtLink class="font-medium font-body flex items-center"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> GitHub</NuxtLink>
+            <NuxtLink class="font-medium font-body flex items-center"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> CodePen</NuxtLink>
+            <NuxtLink class="font-medium font-body flex items-center"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> LinkedIn</NuxtLink>
+          </div>
+
+        </div>
+        <div class="bg-amber-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
           <Icon name="pixelarticons:message-text" size="2.2em"/>
           <div class="font-display uppercase text-2xl">Get in touch</div>
           <p class="font-medium fon">hello@danieldawes.com</p>
