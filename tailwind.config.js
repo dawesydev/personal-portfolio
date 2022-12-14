@@ -21,6 +21,7 @@ module.exports = {
       },
       animation: {
         'bounce-slow': 'bounce 2s infinite',
+        'bounce-once': 'bounce 1s',
       }
     },
   },
