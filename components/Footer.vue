@@ -5,11 +5,39 @@
 <template>
   <footer class="h-11/12 p-8 overflow-y-hidden">
     <div class="grid grid-rows-6 gap-4 w-full lg:grid-cols-4 lg:grid-rows-3 lg:gap-8">
-      <div class="flex row-span-2 bg-berlin rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 lg:justify-between">
-        <div class="w-1/2 text-noir font-display text-3xl font-black uppercase tracking-wide md:text-6xl lg:w-1/3">I'm Dan, a <span class="text-parchment">frontend developer</span> based remotely within Europe.</div>
+      <div class="flex row-span-2 bg-[#49917d] rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 lg:justify-between">
+        <div class="w-1/2 text-noir font-display text-3xl font-black uppercase tracking-wide md:text-5xl lg:w-1/3">I'm Dan, a <span class="text-parchment">frontend developer</span> based remotely within Europe.</div>
         <div class="w-1/2 font-body font-medium text-md lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum facilis ipsum saepe tempore veniam. Ad alias amet qui tempore unde! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, autem est eum incidunt itaque laborum officia provident qui rerum similique. Aliquam dolor itaque omni.</div>
       </div>
-      <div class="bg-emerald-200 row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3 lg:text-xl">
+<!--      <div class="bg-[#af93c4] row-span-2 rounded-xl p-4 flex justify-between lg:col-start-4 lg:row-span-3 lg:text-xl">-->
+<!--        <div class="flex flex-col space-y-4">-->
+<!--          <Icon name="pixelarticons:coffee-alt" size="2.4em"/>-->
+<!--          <div class="font-display uppercase text-2xl">tech locker</div>-->
+<!--          <p class="font-body font-medium">Here are a few of the technologies I have been working with recently:</p>-->
+<!--          <div class="grid grid-cols-3 w-full font-body font-medium">-->
+<!--            <div class="col-start-1">-->
+<!--              <h3 class="font-body font-bold">Languages</h3>-->
+<!--              <ul>-->
+<!--                <li>HTML5 & CSS3</li>-->
+<!--                <li>JavaScript (ES6+)</li>-->
+<!--                <li>TypeScript</li>-->
+<!--                <li>PHP</li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="col-start-2 col-span-2">-->
+<!--              <h3 class="font-body font-bold">Libraries & Frameworks</h3>-->
+<!--              <ul>-->
+<!--                <li>Vue</li>-->
+<!--                <li>Nuxt</li>-->
+<!--                <li>React</li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div></div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--      </div>-->
+      <div class="bg-parchment row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3 lg:text-xl">
         <Icon name="pixelarticons:coffee-alt" size="2.4em"/>
         <div class="font-display uppercase text-3xl md:text-4xl">tech locker</div>
         <p class="font-body font-medium text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque eos esse itaque odio officia sequi! Ab ad amet aspernatur consequuntur enim est illo molestiae? Culpa ea repellendus reprehenderit sit!</p>
@@ -27,7 +55,7 @@
         </div>
 
       </div>
-      <div class="bg-rose-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+      <div class="bg-[#ff7539] row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
         <Icon name="pixelarticons:at" size="2.2em"/>
         <div class="font-display uppercase text-2xl">let's connect</div>
         <div class="flex space-x-4">
@@ -37,12 +65,12 @@
         </div>
 
       </div>
-      <div class="bg-amber-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+      <div class="bg-[#ffa42c] row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
         <Icon name="pixelarticons:message-text" size="2.2em"/>
         <div class="font-display uppercase text-2xl">Get in touch</div>
         <p class="font-medium fon">hello@danieldawes.com</p>
       </div>
-      <a href="#top" class="bg-indigo-200 row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end">
+      <a href="#top" class="bg-[#4100f4] row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end text-parchment">
         <div class="font-display uppercase text-2xl">It's nice up north</div>
         <Icon class="animate-bounce-slow" name="pixelarticons:arrow-up" size="2.6em" />
       </a>
