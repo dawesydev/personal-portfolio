@@ -5,7 +5,8 @@ defineProps({
   tags: Array,
   description: String,
   github: String,
-  demo: String
+  demo: String,
+  background: String
 
 })
 
@@ -13,9 +14,10 @@ defineProps({
 
 <template>
   <section class="h-screen p-8">
-    <div class="h-full rounded-xl flex justify-start items-end w-full p-12 bg-gradient-to-br from-sky-500 to-indigo-500">
+    <div :class="background"
+         class="h-full rounded-xl flex justify-start items-end w-full p-12">
       <div class="space-y-6">
-        <h2 class="font-display uppercase text-4xl">{{ title }}</h2>
+          <h2 class="font-display uppercase text-7xl">{{ title }}</h2>
         <div v-for="tag in tags"
              class="inline-flex mr-2 text-noir font-body text-sm uppercase border border-noir w-fit px-2 py-1 rounded-full font-medium">
           {{ tag }}

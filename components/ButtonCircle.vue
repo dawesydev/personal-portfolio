@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink class="cursor-pointer flex items-center justify-center h-16 w-16 md:h-24 md:w-24 rounded-full bg-noir transition duration-150 ease-out hover:ease-in hover:scale-110 text-xs sm:text-lg text-center text-parchment">
+  <NuxtLink class="cursor-pointer flex items-center justify-center h-16 w-16 md:h-24 md:w-24 rounded-full bg-emerald-200 transition duration-150 ease-out hover:ease-in hover:scale-110 text-xs sm:text-lg text-center text-noir">
     {{ text }}
   </NuxtLink>
 </template>
