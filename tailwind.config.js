@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         'display': ['Anton', 'ui-sans-serif', 'system-ui'],
         'body': ['General Sans', 'ui-monospace', 'system-ui'],
+        'marker': ['Permanent Marker', 'ui-sans-serif', 'system-ui']
       },
       colors: {
         'parchment': '#ffffe3',
