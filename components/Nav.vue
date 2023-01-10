@@ -5,7 +5,7 @@ import Logo from "./Logo";
 </script>
 
 <template>
-  <nav class="flex pt-12 px-12 justify-between items-center">
+  <nav class="flex pt-6 sm:pt-12 px-6 sm:px-12 justify-between items-center">
     <Logo text="daniel dawes." />
     <ButtonCircle text="Let's talk"/>
   </nav>

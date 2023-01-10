@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <p class="text-2xl sm:text-4xl text-noir font-display uppercase tracking-tight">
+  <p class="text-3xl sm:text-4xl text-noir font-display uppercase tracking-tight">
     {{ text }}
   </p>
 </template>
