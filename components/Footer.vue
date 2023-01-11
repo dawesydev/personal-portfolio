@@ -3,22 +3,24 @@
 </script>
 
 <template>
-  <footer class="p-4 md:p-8">
-    <div class="grid grid-rows-6 gap-4 lg:grid-cols-4 lg:grid-rows-3 lg:gap-8">
+  <footer id="about" class="p-4 md:p-8">
+    <div class="h-11/12 flex flex-col xl:grid xl:grid-cols-4 xl:grid-rows-3 xl:gap-8">
+
+      <!--      about-->
       <div class="flex row-span-2 bg-parchment rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 lg:justify-between">
         <div class="w-1/2 text-noir font-display text-5xl font-black uppercase tracking-wide leading-none md:text-6xl lg:w-1/3">
           <span class="text-emerald-400 font-marker">frontend developer</span>
           based remotely within
           Europe.
         </div>
-        <div class="hidden sm:visible w-1/2 font-body font-medium text-md sm:text-xl">A creative developer seeking a role within an exciting company to grow and continue learning with an experienced and passionate team.</div>
+        <div class="hidden sm:visible w-1/2 font-body font-medium text-md text-noir sm:text-xl">A creative developer seeking a role within an exciting company to grow and continue learning with an experienced and passionate team.</div>
       </div>
 
       <!--      tech locker-->
-      <div class="border border-parchment text-parchment row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3 lg:text-xl space-y-6">
+      <div class="xl:mt-0 mt-4 md:mt-8 border border-parchment text-parchment row-span-2 rounded-xl p-4 flex flex-col justify-between lg:col-start-4 lg:row-span-3 lg:text-xl space-y-6">
         <Icon name="pixelarticons:lock-open" size="2.4em"/>
         <div class="font-display uppercase text-3xl md:text-5xl"><span class="font-marker text-emerald-400">My</span> <br /> tech locker</div>
-          <p class="font-body font-medium text-md">Here are a few technologies I’ve been working with recently:</p>
+          <p class="font-body font-medium text-lg">Here are a few technologies I’ve been working with recently:</p>
         <div class="flex w-full justify-around text-sm font-body font-medium lg:w-full">
           <div class="list-inside lg:text-sm space-y-2">
             <Tag skill="Javascript (ES6+)" />
@@ -35,7 +37,9 @@
         </div>
 
       </div>
-      <div class="bg-rose-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+
+      <!--      socials-->
+      <div class="xl:mt-0 mt-4 md:mt-8 bg-rose-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
         <Icon name="pixelarticons:at" size="2.2em"/>
         <div class="font-display uppercase text-2xl">let's connect</div>
         <div class="flex space-x-2">
@@ -46,15 +50,19 @@
 
       </div>
 
-        <div class="bg-amber-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+      <!--      contact-->
+        <div class="xl:mt-0 mt-4 md:mt-8 bg-amber-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
           <Icon name="pixelarticons:message-text" size="2.2em"/>
           <div class="font-display uppercase text-2xl">Get in touch</div>
-          <NuxtLink to="mailto:danieldawes@protonmail.com" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:mail" size="1.2em"/> Email</NuxtLink>
+          <NuxtLink to="mailto:danieldawes@protonmail.com" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:mail" size="1.2em"/> hello@danieldawes.com</NuxtLink>
         </div>
-      <a href="#top" class="bg-indigo-200 row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end">
+
+      <!--      return to top button-->
+      <a href="#top" class="xl:mt-0 mt-4 md:mt-8 bg-indigo-200 row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end">
         <div class="font-display uppercase text-2xl">It's nice up north</div>
         <Icon class="animate-bounce-slow" name="pixelarticons:arrow-up" size="2.6em" />
       </a>
+
     </div>
   </footer>
 

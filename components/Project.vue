@@ -13,13 +13,13 @@ defineProps({
 </script>
 
 <template>
-  <section class="h-screen">
+  <div class="h-screen">
     <div :class="background"
-         class="h-full rounded-xl flex justify-start items-end w-full p-6 sm:p-12">
-      <div class="space-y-6">
-          <h2 class="font-display uppercase text-5xl sm:text-7xl">{{ title }}</h2>
+         class="h-full rounded-xl flex justify-start items-end w-full p-4 sm:p-8">
+      <div class="space-y-4">
+        <h2 class="font-display uppercase text-3xl sm:text-4xl">{{ title }}</h2>
         <div v-for="tag in tags"
-             class="inline-flex mr-2 text-noir font-body text-sm uppercase border border-noir w-fit px-2 py-1 rounded-full font-medium">
+             class="inline-flex mr-2 text-noir font-body font-normal text-xs border border-noir w-fit px-2 py-1 rounded-full font-medium">
           {{ tag }}
         </div>
         <p class="w-2/3 font-medium font-body">{{ description }}</p>
@@ -34,6 +34,6 @@ defineProps({
 
       </div>
     </div>
+  </div>
 
-  </section>
 </template>
