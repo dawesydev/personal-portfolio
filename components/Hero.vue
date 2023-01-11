@@ -8,7 +8,7 @@ import ButtonPill from "./ButtonPill"
     <Nav />
     <div>
       <div class="px-6 sm:px-12 w-3/4 lg:w-full">
-        <p class="font-marker text-4xl lg:text-6xl lg:pb-2 text-emerald-400">Your next</p>
+        <p class="font-marker text-4xl lg:text-6xl lg:pb-2 text-emerald-400">Your next..</p>
         <HeroHeading heading="frontend developer." />
         <HeroIntro text="A creative coder with a keen-eye for design, finds joy in solving problems with the latest frontend technologies" />
       </div>

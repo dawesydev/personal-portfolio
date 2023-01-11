@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="h-screen p-4 md:p-8">
+  <section class="h-screen">
     <div :class="background"
          class="h-full rounded-xl flex justify-start items-end w-full p-6 sm:p-12">
       <div class="space-y-6">
