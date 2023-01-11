@@ -1,7 +1,8 @@
 <template>
   <div>
     <slot />
-    <Divider title="Recent projects" />
+    <Divider title="Recent projects"
+    />
     <div class="xl:grid grid-cols-3 w-full">
       <Project class="col-start-1"
                title="Crypto Dashboard"
