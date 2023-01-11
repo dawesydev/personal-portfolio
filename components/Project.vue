@@ -22,7 +22,7 @@ defineProps({
              class="inline-flex mr-2 text-noir font-body font-normal text-xs border border-noir w-fit px-2 py-1 rounded-full font-medium">
           {{ tag }}
         </div>
-        <p class="w-2/3 font-medium font-body">{{ description }}</p>
+        <p class="w-2/3 text-sm font-medium font-body">{{ description }}</p>
         <div class="flex w-1/2 justify-between">
           <NuxtLink :to="github"
                     target="_blank"
