@@ -18,8 +18,8 @@
                title="Colourful Cities"
                :tags="['React', 'TailwindCSS']"
                description="A creative app which promotes the ‘LOST iN’ city guide book series."
-               github="https://github.com/dawesydev/crypto-dashboard"
-               demo="https://chic-cat-1ea4ea.netlify.app/"
+               github="https://github.com/dawesydev/colourful-cities"
+               demo="https://clever-llama-27c474.netlify.app/"
                background="bg-amber-400"
       />
       <Project class="mt-4 md:mt-8"
@@ -27,7 +27,7 @@
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."
                github="https://github.com/dawesydev/crypto-dashboard"
-               demo="https://chic-cat-1ea4ea.netlify.app/"
+               demo="https://clever-llama-27c474.netlify.app/"
                background="bg-red-400"
       />
     </div>
@@ -48,8 +48,8 @@
                title="Colourful Cities"
                :tags="['React', 'TailwindCSS']"
                description="Creative web app built using React which promotes the ‘LOST iN’ city guide book series."
-               github="https://github.com/dawesydev/crypto-dashboard"
-               demo="https://chic-cat-1ea4ea.netlify.app/"
+               github="https://github.com/dawesydev/colourful-cities"
+               demo="https://clever-llama-27c474.netlify.app/"
                background="bg-amber-400"
       />
       <Project class="col-start-3 pr-4 md:pr-8 pt-4 md:pt-8 pl-2 md:pl-4"
