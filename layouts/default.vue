@@ -35,7 +35,7 @@
 
     <!--    for large screens-->
 
-    <div class="hidden xl:visible xl:grid xl:grid-cols-3">
+    <div class="hidden xl:visible xl:grid xl:grid-cols-3 h-screen">
       <Project class="col-start-1 pl-4 md:pl-8 pt-4 md:pt-8 pr-2 md:pr-4"
                title="Crypto Dashboard"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
