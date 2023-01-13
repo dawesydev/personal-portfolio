@@ -6,7 +6,7 @@
   <!--    for small screens-->
 
     <div class="flex flex-col px-4 md:px-8 xl:hidden h-screen">
-      <Project class="mt-4 md:mt-8"
+      <Project class="mt-4 md:mt-8 h-1/3"
                title="Crypto Dashboard"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="An app built for crypto enthusiasts to visualize real-time stocks and track coin data."
@@ -14,7 +14,7 @@
                demo="https://chic-cat-1ea4ea.netlify.app/"
                background="bg-gradient-to-br from-sky-500 to-indigo-500"
       />
-      <Project class="mt-4 md:mt-8"
+      <Project class="mt-4 md:mt-8 h-1/3"
                title="Colourful Cities"
                :tags="['React', 'TailwindCSS']"
                description="A creative app which promotes the ‘LOST iN’ city guide book series."
@@ -22,7 +22,7 @@
                demo="https://clever-llama-27c474.netlify.app/"
                background="bg-amber-400"
       />
-      <Project class="mt-4 md:mt-8"
+      <Project class="mt-4 md:mt-8 h-1/3"
                title="Pizza Pockets"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."

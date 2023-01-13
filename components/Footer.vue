@@ -7,13 +7,15 @@
     <div class="h-11/12 flex flex-col xl:grid xl:grid-cols-4 xl:grid-rows-3 xl:gap-8">
 
       <!--      about-->
-      <div class="flex row-span-2 bg-parchment rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 lg:justify-between">
-        <div class="w-1/2 text-noir font-display text-5xl font-black uppercase tracking-wide leading-none md:text-6xl lg:w-1/3">
+      <div class=" flex bg-parchment rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 justify-between">
+        <div class="w-1/2 text-noir font-display text-5xl font-black uppercase tracking-wide leading-none md:text-7xl lg:w-1/3">
           <span class="text-emerald-400 font-marker">frontend developer</span>
-          based remotely within
-          Europe.
+          based remotely within Europe.
         </div>
-        <div class="hidden sm:visible w-1/2 font-body font-medium text-md text-noir sm:text-xl">A creative developer seeking a role within an exciting company to grow and continue learning with an experienced and passionate team.</div>
+        <div class="w-1/3 flex flex-col text-end font-body font-medium text-md text-noir sm:text-xl space-y-4">
+          <div>I'm a self-taught frontend developer living in the UK with my partner and miniature dachshund.</div>
+          <div>Outside of software development, I'm a skier and chef. One of my top near-term goals is to teach myself animation and build more interactive websites using GSAP.</div>
+        </div>
       </div>
 
       <!--      tech locker-->
@@ -39,7 +41,7 @@
       </div>
 
       <!--      socials-->
-      <div class="xl:mt-0 mt-4 md:mt-8 bg-rose-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+      <div class="xl:mt-0 mt-4 md:mt-8 border border-parchment text-parchment row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
         <Icon name="pixelarticons:at" size="2.2em"/>
         <div class="font-display uppercase text-2xl">let's connect</div>
         <div class="flex space-x-2">
@@ -51,17 +53,17 @@
       </div>
 
       <!--      contact-->
-        <div class="xl:mt-0 mt-4 md:mt-8 bg-amber-200 row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
+        <div class="xl:mt-0 mt-4 md:mt-8 border border-parchment text-parchment row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
           <Icon name="pixelarticons:message-text" size="2.2em"/>
           <div class="font-display uppercase text-2xl">Get in touch</div>
           <NuxtLink to="mailto:danieldawes@protonmail.com" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:mail" size="1.2em"/> hello@danieldawes.com</NuxtLink>
         </div>
 
       <!--      return to top button-->
-      <a href="#top" class="xl:mt-0 mt-4 md:mt-8 bg-indigo-200 row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end">
-        <div class="font-display uppercase text-2xl">It's nice up north</div>
+      <NuxtLink to="#top" class="xl:mt-0 mt-4 md:mt-8 border border-parchment text-parchment row-span-1 rounded-xl p-4 space-y-4 flex justify-between items-end">
+        <div class="font-display uppercase text-2xl">It's nice <br/> <span class="font-marker text-emerald-400 text-4xl">up north</span></div>
         <Icon class="animate-bounce-slow" name="pixelarticons:arrow-up" size="2.6em" />
-      </a>
+      </NuxtLink>
 
     </div>
   </footer>
