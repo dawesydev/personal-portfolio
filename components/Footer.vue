@@ -7,12 +7,12 @@
     <div class="h-11/12 flex flex-col xl:grid xl:grid-cols-4 xl:grid-rows-3 xl:gap-8">
 
       <!--      about-->
-      <div class=" flex bg-parchment rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 justify-between">
-        <div class="w-1/2 text-noir font-display text-5xl font-black uppercase tracking-wide leading-none md:text-7xl lg:w-1/3">
+      <div class="flex flex-col sm:flex-row bg-parchment rounded-xl p-4 lg:col-start-1 lg:col-span-3 lg:row-span-2 justify-between">
+        <div class="sm:w-1/2 w-1/3 text-noir font-display text-5xl font-black uppercase tracking-wide leading-none md:text-7xl lg:w-1/3">
           <span class="text-emerald-400 font-marker">frontend developer</span>
           based remotely within Europe.
         </div>
-        <div class="w-1/3 flex flex-col text-end font-body font-medium text-md text-noir sm:text-xl space-y-4">
+        <div class="sm:w-1/3 w-4/5 sm:mt-0 mt-4 flex flex-col md:text-end font-body font-medium text-md text-noir sm:text-xl space-y-4">
           <div>I'm a self-taught frontend developer living in the UK with my partner and miniature dachshund.</div>
           <div>Outside of software development, I'm a skier and chef. One of my top near-term goals is to teach myself animation and build more interactive websites using GSAP.</div>
         </div>
