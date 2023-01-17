@@ -23,11 +23,11 @@
                background="bg-amber-400"
       />
       <Project class="mt-4 md:mt-8 h-1/3"
-               title="Pizza Pockets"
+               title="Pouch Pizza"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."
-               github="https://github.com/dawesydev/crypto-dashboard"
-               demo="https://clever-llama-27c474.netlify.app/"
+               github="https://github.com/dawesydev/pouch-pizza"
+               demo="https://pouch-pizza.vercel.app/"
                background="bg-red-400"
       />
     </div>
@@ -56,8 +56,8 @@
                title="Pizza Pockets"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."
-               github="https://github.com/dawesydev/crypto-dashboard"
-               demo="https://chic-cat-1ea4ea.netlify.app/"
+               github="https://github.com/dawesydev/pouch-pizza"
+               demo="https://pouch-pizza.vercel.app/"
                background="bg-red-400"
       />
     </div>
