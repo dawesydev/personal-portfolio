@@ -56,7 +56,7 @@
         <div class="xl:mt-0 mt-4 md:mt-8 border border-parchment text-parchment row-span-1 rounded-xl p-4 space-y-4 flex flex-col justify-between">
           <Icon name="pixelarticons:message-text" size="2.2em"/>
           <div class="font-display uppercase text-2xl">Get in touch</div>
-          <NuxtLink to="mailto:danieldawes@protonmail.com" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:mail" size="1.2em"/> hello@danieldawes.com</NuxtLink>
+          <NuxtLink to="mailto:danieldawes@protonmail.com" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:mail" size="1.2em"/>danieldawes@protonmail.com</NuxtLink>
         </div>
 
       <!--      return to top button-->
