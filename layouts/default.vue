@@ -53,7 +53,7 @@
                background="bg-amber-400"
       />
       <Project class="col-start-3 pr-4 md:pr-8 pt-4 md:pt-8 pl-2 md:pl-4"
-               title="Pizza Pockets"
+               title="Pouch Pizza"
                :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
                description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."
                github="https://github.com/dawesydev/pouch-pizza"
