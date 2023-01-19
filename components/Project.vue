@@ -15,8 +15,8 @@ defineProps({
 <template>
   <div>
     <div :class="background"
-         class="h-full rounded-xl flex justify-start items-end w-full p-4 sm:p-8">
-      <div class="bg-fixed space-y-4">
+         class="bg-fixed h-full rounded-xl flex justify-start items-end w-full p-4 sm:p-8">
+      <div class="space-y-4">
         <h2 class="font-display uppercase text-3xl sm:text-4xl">{{ title }}</h2>
         <div v-for="tag in tags"
              class="inline-flex mr-2 text-noir font-body font-normal text-xs border border-noir w-fit px-2 py-1 rounded-full font-medium">
