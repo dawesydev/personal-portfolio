@@ -26,10 +26,10 @@ defineProps({
         <div class="flex w-1/2 justify-between">
           <NuxtLink :to="github"
                     target="_blank"
-                    class="flex items-center font-body font-medium"><Icon class="mr-1" name="pixelarticons:code" size="1.2em"/> Code</NuxtLink>
+                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:code" size="1.2em"/> Code</NuxtLink>
           <NuxtLink :to="demo"
                     target="_blank"
-                    class="flex items-center font-body font-medium"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> Demo</NuxtLink>
+                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> Demo</NuxtLink>
         </div>
 
       </div>
