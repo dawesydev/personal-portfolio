@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer id="about" class="p-4 md:p-8">
+  <footer id="about" class="p-4 md:p-8 max-w-full">
     <div class="h-11/12 flex flex-col xl:grid xl:grid-cols-4 xl:grid-rows-3 xl:gap-8">
 
       <!--      about-->
@@ -49,7 +49,6 @@
           <NuxtLink to="https://codepen.io/dawesydev" target="_blank" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> CodePen</NuxtLink>
           <NuxtLink to="https://www.linkedin.com/in/daniel-dawes/" target="_blank" class="font-medium font-body flex items-center transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> LinkedIn</NuxtLink>
         </div>
-
       </div>
 
       <!--      contact-->

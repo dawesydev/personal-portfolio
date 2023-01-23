@@ -15,7 +15,7 @@ defineProps({
 <template>
   <div>
     <div :class="background"
-         class="bg-fixed h-full rounded-xl flex justify-start items-end w-full p-4 sm:p-8">
+         class="bg-fixed h-full max-w-full rounded-xl flex justify-start items-end p-4 sm:p-8">
       <div class="space-y-4">
         <h2 class="font-display uppercase text-3xl sm:text-4xl">{{ title }}</h2>
         <div v-for="tag in tags"
@@ -26,10 +26,17 @@ defineProps({
         <div class="flex w-1/2 justify-between">
           <NuxtLink :to="github"
                     target="_blank"
-                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:code" size="1.2em"/> Code</NuxtLink>
+                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1">
+            <Icon class="mr-1" name="pixelarticons:code" size="1.2em"/>
+            Code
+          </NuxtLink>
           <NuxtLink :to="demo"
                     target="_blank"
-                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1"><Icon class="mr-1" name="pixelarticons:external-link" size="1.2em"/> Demo</NuxtLink>
+                    class="flex items-center font-body font-medium transition-transform hover:-translate-y-1">
+            <Icon class="mr-1" name="pixelarticons:external-link" size="1.4em"/>
+            Demo
+          </NuxtLink>
+
         </div>
 
       </div>
