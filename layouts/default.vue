@@ -49,23 +49,23 @@
           description="A fun pizzeria app, full of cool features including an interactive menu, order system and checkout."
           github="https://github.com/dawesydev/pouch-pizza"
           demo="https://pouch-pizza.vercel.app/"
-          background="bg-[#c8f5f5]"
+          background="bg-[#fefce8]"
         >
           <img
-            src="../assets/images/MOKA.png"
+            src="../assets/images/PIZZA.svg"
             width="400"
             height="400"
-            class="absolute top-24 left-16 z-50"
+            class="absolute top-48 left-16 z-50"
           />
         </Project>
         <Project
           class="col-start-2 pt-4 md:pt-8 px-2 md:px-4"
           title="Hooge Boards"
           :tags="['React', 'TailwindCSS']"
-          description="Creative web app built using React which promotes the ‘LOST iN’ city guide book series."
-          github="https://github.com/dawesydev/colourful-cities"
-          demo="https://clever-llama-27c474.netlify.app/"
-          background="bg-[#fcf7e7]"
+          description="An eCommerce app promoting HOOGE, the next best Skateboard & Snowboard brand."
+          github="https://github.com/dawesydev/hooge"
+          demo="https://hooge.vercel.app/"
+          background="bg-[#f4f4f4]"
         >
           <img
             src="../assets/images/HOOGE.png"
@@ -77,7 +77,7 @@
         <Project
           class="col-start-3 pr-4 md:pr-8 pt-4 md:pt-8 pl-2 md:pl-4"
           title="Colourful cities"
-          :tags="['Vue', 'Nuxt 3', 'TailwindCSS']"
+          :tags="['React', 'TailwindCSS']"
           description="Creative web app built using React which promotes the ‘LOST iN’ city guide book series."
           github="https://github.com/dawesydev/colourful-cities"
           demo="https://clever-llama-27c474.netlify.app/"
