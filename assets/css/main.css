@@ -1,4 +1,4 @@
-@import url("https://api.fontshare.com/v2/css?f[]=anton@400&f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap");
+@import url('https://api.fontshare.com/v2/css?f[]=anton@400&f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 @tailwind base;
@@ -9,5 +9,18 @@
     html {
         background-color: #10100e;
         scroll-behavior: smooth;
+    }
+    @font-face {
+        font-family: Stara;
+        font-weight: 800;
+        src: url(/assets/fonts/Stara-Black.woff2) format('woff2'),
+            url(/assets/fonts/Stara-Black.woff) format('woff');
+    }
+    @font-face {
+        font-family: Stara;
+        font-weight: 800;
+        font-style: italic;
+        src: url(/assets/fonts/Stara-BlackItalic.woff2) format('woff2'),
+            url(/assets//fonts/Stara-BlackItalic.woff) format('woff');
     }
 }

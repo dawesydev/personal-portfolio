@@ -1,6 +1,12 @@
 <template>
-  <a id="top"></a>
-  <div class="h-screen p-4 md:p-8">
-    <Hero />
-  </div>
+    <a id="top"></a>
+    <BlockContainer>
+        <Hero />
+    </BlockContainer>
+    <BlockContainer>
+        <ProjectsContainer />
+    </BlockContainer>
+    <FullScreenContainer backgroundColor="bg-tangerine">
+        <Footer />
+    </FullScreenContainer>
 </template>
