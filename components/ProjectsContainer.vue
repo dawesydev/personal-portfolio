@@ -1,36 +1,36 @@
 <script setup>
-import { onMounted, onUnmounted, ref } from 'vue'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import { onMounted, onUnmounted, ref } from 'vue'
+// import gsap from 'gsap'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
+// gsap.registerPlugin(ScrollTrigger)
 
-const section = ref()
-const title = ref()
-let ctx
+// const section = ref()
+// const title = ref()
+// let ctx
 
-onMounted(() => {
-    ctx = gsap.context(() => {
-        gsap.from(title.value, {
-            x: -300,
-        })
-        gsap.to(title.value, {
-            x: 15,
-            scrollTrigger: {
-                trigger: title.value,
-                start: 'bottom bottom',
-                end: 'top 20%',
-                scrub: true,
-            },
-        })
+// onMounted(() => {
+//     ctx = gsap.context(() => {
+//         gsap.from(title.value, {
+//             x: -300,
+//         })
+//         gsap.to(title.value, {
+//             x: 15,
+//             scrollTrigger: {
+//                 trigger: title.value,
+//                 start: 'bottom bottom',
+//                 end: 'top 20%',
+//                 scrub: true,
+//             },
+//         })
 
-        // })
-    }, section.value) // <- Scope!
-})
+//         // })
+//     }, section.value) // <- Scope!
+// })
 
-onUnmounted(() => {
-    ctx.revert() // <- Easy Cleanup!
-})
+// onUnmounted(() => {
+//     ctx.revert() // <- Easy Cleanup!
+// })
 </script>
 
 <template>
