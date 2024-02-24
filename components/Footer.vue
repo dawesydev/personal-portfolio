@@ -41,9 +41,6 @@
                 <NuxtImg src="/EX.svg" class="h-10" />
             </div>
         </TextBlock>
-        <!-- <div
-            class="bg-parchment rounded-2xl col-start-3 col-span-3 row-start-3 row-span-2"
-        ></div> -->
         <OversizedLogoBlock />
     </footer>
 </template>
